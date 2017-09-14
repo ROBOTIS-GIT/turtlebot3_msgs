@@ -23,7 +23,7 @@ uint8 ERROR_RIGHT_MOTOR = 2
 ########################################
 # Messages
 ########################################
-time stamp
+Header header
 uint8  bumper
 uint8  cliff
 uint8  button
