@@ -20,7 +20,6 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   SensorState.msg
-  MotorPower.msg
   VersionInfo.msg
   PanoramaImg.msg
 )
