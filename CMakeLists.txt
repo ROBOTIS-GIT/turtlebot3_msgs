@@ -22,6 +22,7 @@ add_message_files(
   SensorState.msg
   VersionInfo.msg
   PanoramaImg.msg
+  Sound.msg
 )
 
 add_service_files(
