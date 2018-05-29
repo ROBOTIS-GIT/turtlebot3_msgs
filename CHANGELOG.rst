@@ -2,6 +2,14 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2018-05-29)
+------------------
+* added sensors
+* deleted unused msg and srv
+* separated turtlebot3_msgs and applications related messages
+* merged pull request `#10 <https://github.com/ROBOTIS-GIT/turtlebot3_msgs/issues/10>`_ `#9 <https://github.com/ROBOTIS-GIT/turtlebot3_msgs/issues/9>`_ `#8 <https://github.com/ROBOTIS-GIT/turtlebot3_msgs/issues/8>`_ `#7 <https://github.com/ROBOTIS-GIT/turtlebot3_msgs/issues/7>`_
+* Contributors: Darby Lim, Gilbert, Pyo
+
 0.1.5 (2018-03-14)
 ------------------
 * modified CMakeLists.txt and package for package format v2
