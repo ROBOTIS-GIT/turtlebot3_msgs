@@ -1,11 +1,11 @@
 ################################################################################
-# CMake
+# Set minimum required version of cmake, project name and compile options
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
 project(turtlebot3_msgs)
 
 ################################################################################
-# Packages
+# Find catkin packages and libraries for catkin and system dependencies
 ################################################################################
 find_package(catkin REQUIRED COMPONENTS
   std_msgs
@@ -13,10 +13,13 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 ################################################################################
+# Setup for python modules and scripts
+################################################################################
+
+################################################################################
 # Declare ROS messages, services and actions
 ################################################################################
 add_message_files(
-  DIRECTORY msg
   FILES
   SensorState.msg
   VersionInfo.msg
@@ -33,7 +36,7 @@ generate_messages(
 ################################################################################
 
 ################################################################################
-# Catkin specific configuration
+# Declare catkin specific configuration to be passed to dependent projects
 ################################################################################
 catkin_package(
   CATKIN_DEPENDS std_msgs message_runtime
