@@ -14,7 +14,6 @@
   <url type="website">http://turtlebot3.robotis.com</url>
   <buildtool_depend>catkin</buildtool_depend>
   <depend>std_msgs</depend>
-  <depend>sensor_msgs</depend>
   <build_depend>message_generation</build_depend>
   <build_export_depend>message_runtime</build_export_depend>
   <exec_depend>message_runtime</exec_depend>
