@@ -2,6 +2,11 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2018-07-26)
+------------------
+* Added support for ROS2
+* Contributors: Vineet Ghatge
+
 1.0.0 (2018-05-29)
 ------------------
 * added sensors
