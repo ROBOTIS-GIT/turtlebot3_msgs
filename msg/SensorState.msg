@@ -29,7 +29,7 @@ uint8 TORQUE_OFF = 2
 ########################################
 # Messages
 ########################################
-Header  header
+std_msgs/Header  header
 uint8   bumper
 float32 cliff
 float32 sonar
