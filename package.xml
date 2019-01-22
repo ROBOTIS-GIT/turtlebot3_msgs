@@ -10,10 +10,12 @@
   <author email="thlim@robotis.com">Darby Lim</author>
   <author email="kkjong@robotis.com">Gilbert</author>
   <maintainer email="pyo@robotis.com">Pyo</maintainer>
+  <maintainer email="kkjong@robotis.com">Gilbert</maintainer>
   <url type="website">http://wiki.ros.org/turtlebot3_msgs</url>
   <url type="emanual">http://turtlebot3.robotis.com</url>
   <url type="repository">https://github.com/ROBOTIS-GIT/turtlebot3_msgs</url>
-  <url type="bugtracker">https://github.com/ROBOTIS-GIT/turtlebot3_msgs/issues</url>  <buildtool_depend>catkin</buildtool_depend>
+  <url type="bugtracker">https://github.com/ROBOTIS-GIT/turtlebot3_msgs/issues</url>
+  <buildtool_depend>catkin</buildtool_depend>
   <depend>std_msgs</depend>
   <build_depend>message_generation</build_depend>
   <build_export_depend>message_runtime</build_export_depend>
