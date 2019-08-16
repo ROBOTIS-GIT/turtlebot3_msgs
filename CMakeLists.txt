@@ -28,13 +28,18 @@ find_package(std_msgs REQUIRED)
 # Declare ROS messages, services and actions
 ################################################################################
 set(msg_files
-    "msg/SensorState.msg"
-    "msg/VersionInfo.msg"
-    "msg/Sound.msg"	
+  "msg/SensorState.msg"
+  "msg/Sound.msg"
+  "msg/VersionInfo.msg"
+)
+
+set(srv_files
+  "srv/Sound.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
   DEPENDENCIES std_msgs
   ADD_LINTER_TESTS
 )
