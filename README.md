@@ -5,7 +5,7 @@
 ## ROS 1 Packages for TurtleBot3 Messages
 |Version|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|
 |:---:|:---:|:---:|
-|[![GitHub version](https://badge.fury.io/gh/ROBOTIS-GIT%2Fturtlebot3_msgs.svg)](https://badge.fury.io/gh/ROBOTIS-GIT%2Fturtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=kinetic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=melodic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|
+|1.0.0|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=kinetic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=melodic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|
 
 ## ROS 2 Packages for TurtleBot3 Messages
 |Version|Dashing + Ubuntu Bionic|
