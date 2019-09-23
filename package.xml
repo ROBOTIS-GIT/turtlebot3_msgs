@@ -11,6 +11,7 @@
   <author email="thlim@robotis.com">Darby Lim</author>
   <author email="kkjong@robotis.com">Gilbert</author>
   <author email="vgh@amazon.com">Vineet Ghatge</author>
+  <author email="jhshim@robotis.com">Ryan Shim</author>
   <maintainer email="pyo@robotis.com">Pyo</maintainer>
   <url type="website">http://wiki.ros.org/turtlebot3_msgs</url>
   <url type="emanual">http://turtlebot3.robotis.com</url>
@@ -21,10 +22,12 @@
 
   <build_depend>builtin_interfaces</build_depend>
   <build_depend>std_msgs</build_depend>
+  <build_depend>action_msgs</build_depend>
 
   <exec_depend>builtin_interfaces</exec_depend>
   <exec_depend>rosidl_default_runtime</exec_depend>
   <exec_depend>std_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
 
   <test_depend>ament_lint_common</test_depend>
   <member_of_group>rosidl_interface_packages</member_of_group>
