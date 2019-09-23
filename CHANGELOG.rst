@@ -2,6 +2,11 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.0 (2019-09-24)
+------------------
+* Added action file for turtlebot example package
+* Contributors: Ryan Shim
+
 2.1.0 (2019-08-20)
 ------------------
 * Supported ROS 2 Dashing Diademata
