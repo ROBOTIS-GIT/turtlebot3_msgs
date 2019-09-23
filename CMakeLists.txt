@@ -15,6 +15,7 @@ endif()
 ################################################################################
 # Find ament packages and libraries for ament and system dependencies
 ################################################################################
+find_package(action_msgs REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
@@ -36,10 +37,15 @@ set(srv_files
   "srv/Sound.srv"
 )
 
+set(action_files
+  "action/Patrol.action"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
-  DEPENDENCIES std_msgs
+  ${action_files}
+  DEPENDENCIES action_msgs std_msgs
   ADD_LINTER_TESTS
 )
 ament_export_dependencies(rosidl_default_runtime)
