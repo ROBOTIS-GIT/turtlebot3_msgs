@@ -35,6 +35,7 @@ set(msg_files
 
 set(srv_files
   "srv/Sound.srv"
+  "srv/Dqn.srv"
 )
 
 set(action_files
