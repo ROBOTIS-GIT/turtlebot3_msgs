@@ -2,6 +2,10 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2020-06-18)
+------------------
+* ROS 1 Noetic Ninjemys support
+
 1.0.0 (2018-05-29)
 ------------------
 * added sensors
