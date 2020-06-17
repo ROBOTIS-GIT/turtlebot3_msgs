@@ -9,14 +9,15 @@ notifications:
     on_success: change
     on_failure: always
     recipients:
-      - pyo@robotis.com
-      - thlim@robotis.com
+      - willson@robotis.com
 
 branches:
   only:
     - ros2
     - ros2-devel
     - dashing-devel
+    - eloquent-devel
+    - foxy-devel
 
 install:
   - git clone --quiet --depth 1 https://github.com/ROBOTIS-GIT/ros2ci.git .ros2ci
