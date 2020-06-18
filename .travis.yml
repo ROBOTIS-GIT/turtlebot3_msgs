@@ -2,7 +2,7 @@ services:
   - docker
 
 language:
-  - none
+  - generic
 
 notifications:
   email:
@@ -26,4 +26,4 @@ matrix:
   include:
     - script: .ros2ci/travis.bash dashing
     - script: .ros2ci/travis.bash eloquent
-    - script: .ros2ci/travis.bash foxy
+    - script: .ros2ci/travis.bash nightly
