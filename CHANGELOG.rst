@@ -2,6 +2,12 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.1 (2020-06-18)
+------------------
+* ROS 2 Eloquent Elusor supported
+* ROS 2 Foxy Fitzroy supported
+* Contributors: Will Son
+
 2.2.0 (2019-09-24)
 ------------------
 * Added action file for turtlebot example package

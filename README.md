@@ -3,14 +3,14 @@
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/turtlebot3/logo_turtlebot3.png" width="300">
 
 ## ROS 1 Packages for TurtleBot3 Messages
-|develop|master|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|
-|:---:|:---:|:---:|:---:|
-|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=develop)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=master)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=kinetic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=melodic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|
+|develop|master|Kinetic + Ubuntu Xenial|Melodic + Ubuntu Bionic|Noetic + Ubuntu Focal|
+|:---:|:---:|:---:|:---:|:---:|
+|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=develop)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=master)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=kinetic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=melodic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=noetic-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|
 
 ## ROS 2 Packages for TurtleBot3 Messages
-|ros2-devel|ros2|Dashing + Ubuntu Bionic|
-|:---:|:---:|:---:|
-|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=ros2-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=ros2)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=dashing-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|
+|ros2-devel|ros2|Dashing + Ubuntu Bionic|Eloquent + Ubuntu Bionic|Foxy + Ubuntu Focal|
+|:---:|:---:|:---:|:---:|:---:|
+|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=ros2-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=ros2)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=dashing-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=eloquent-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|[![Build Status](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs.svg?branch=foxy-devel)](https://travis-ci.org/ROBOTIS-GIT/turtlebot3_msgs)|
 
 ## ROBOTIS e-Manual for TurtleBot3
 - [ROBOTIS e-Manual for TurtleBot3](http://turtlebot3.robotis.com/)
