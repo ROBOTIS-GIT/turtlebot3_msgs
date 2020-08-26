@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        linter: [copyright, cppcheck, cpplint, uncrustify, pep8, pep257, xmllint]
+        linter: [copyright, pep8, pep257, xmllint]
         distribution: [dashing, eloquent, foxy]
     steps:
       - uses: actions/checkout@v2
