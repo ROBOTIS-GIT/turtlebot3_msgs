@@ -1,4 +1,4 @@
-name: devel-ci
+name: develop
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 on:
