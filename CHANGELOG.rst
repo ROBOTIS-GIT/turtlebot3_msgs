@@ -2,6 +2,11 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.2 (2021-06-14)
+------------------
+* ROS 2 Galactic Geochelone supported
+* Contributors: Will Son
+
 2.2.1 (2020-06-18)
 ------------------
 * ROS 2 Eloquent Elusor supported

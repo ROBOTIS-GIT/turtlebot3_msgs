@@ -12,6 +12,8 @@
 
 [![foxy-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/foxy-devel)
 
+[![galactic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/galactic-devel)
+
 ## ROBOTIS e-Manual for TurtleBot3
 - [ROBOTIS e-Manual for TurtleBot3](http://turtlebot3.robotis.com/)
 
