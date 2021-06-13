@@ -2,7 +2,7 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.2 (2020-06-14)
+2.2.2 (2021-06-14)
 ------------------
 * ROS 2 Galactic Geochelone supported
 * Contributors: Will Son
