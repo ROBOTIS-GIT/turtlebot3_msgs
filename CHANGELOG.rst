@@ -2,6 +2,10 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.3 (2202-05-26)
+------------------
+* ROS2 Humble Hawksbill supported
+
 2.2.2 (2021-06-14)
 ------------------
 * ROS 2 Galactic Geochelone supported

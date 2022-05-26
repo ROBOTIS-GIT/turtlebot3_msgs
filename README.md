@@ -14,6 +14,8 @@
 
 [![galactic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/galactic-devel)
 
+[![humble-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/humble-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/humble-devel)
+
 ## ROBOTIS e-Manual for TurtleBot3
 - [ROBOTIS e-Manual for TurtleBot3](http://turtlebot3.robotis.com/)
 
@@ -29,6 +31,7 @@
 - [turtlebot3_autorace](https://github.com/ROBOTIS-GIT/turtlebot3_autorace)
 - [turtlebot3_deliver](https://github.com/ROBOTIS-GIT/turtlebot3_deliver)
 - [hls_lfcd_lds_driver](https://github.com/ROBOTIS-GIT/hls_lfcd_lds_driver)
+- [ld08_driver](https://github.com/ROBOTIS-GIT/ld08_driver)
 - [open_manipulator_msgs](https://github.com/ROBOTIS-GIT/open_manipulator_msgs)
 - [open_manipulator](https://github.com/ROBOTIS-GIT/open_manipulator)
 - [open_manipulator_simulations](https://github.com/ROBOTIS-GIT/open_manipulator_simulations)

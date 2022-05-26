@@ -3,9 +3,9 @@ name: ros2-devel
 # Controls when the action will run. Triggers the workflow on push or pull request
 on:
   push:
-    branches: [ ros2, ros2-devel, foxy-devel, galactic-devel ]
+    branches: [ ros2, ros2-devel, foxy-devel, galactic-devel, humble-devel ]
   pull_request:
-    branches: [ ros2, ros2-devel, foxy-devel, galactic-devel ]
+    branches: [ ros2, ros2-devel, foxy-devel, galactic-devel, humble-devel ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,6 +18,7 @@ jobs:
           # - dashing
           - foxy
           - galactic
+          - humble
           - rolling
         include:
             # Dashing Diademata (May 2019 - May 2021)
@@ -32,8 +33,12 @@ jobs:
           - docker_image: ubuntu:focal
             ros_distribution: galactic
             ros_version: 2
+            # Humble Hawksbill (May 2027)
+          - docker_image: ubuntu:jammy
+            ros_distribution: humble
+            ros_version: 2
             # Rolling
-          - docker_image: ubuntu:focal
+          - docker_image: ubuntu:jammy
             ros_distribution: rolling
             ros_version: 2
     container:
@@ -42,15 +47,15 @@ jobs:
       - name: Setup directories
         run: mkdir -p ros_ws/src
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           path: ros_ws/src
       - name: Setup ROS environment
-        uses: ros-tooling/setup-ros@0.2.1
+        uses: ros-tooling/setup-ros@0.3.3
         with:
           required-ros-distributions: ${{ matrix.ros_distribution }}
       - name: Build and Test
-        uses: ros-tooling/action-ros-ci@v0.2
+        uses: ros-tooling/action-ros-ci@0.2.5
         with:
           package-name: turtlebot3_msgs
           target-ros2-distro: ${{ matrix.ros_distribution }}
