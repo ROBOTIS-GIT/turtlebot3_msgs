@@ -2,19 +2,8 @@
 
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/turtlebot3/logo_turtlebot3.png" width="300">
 
-[![kinetic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/kinetic-devel)
-
-[![melodic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/melodic-devel)
-
-[![noetic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/noetic-devel)
-
-[![dashing-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/dashing-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/dashing-devel)
-
-[![foxy-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/foxy-devel)
-
-[![galactic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/galactic-devel)
-
-[![humble-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/workflows/humble-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3_msgs/tree/humble-devel)
+- Active Branches: noetic, humble, main
+- Legacy Branches: *-devel
 
 ## ROBOTIS e-Manual for TurtleBot3
 - [ROBOTIS e-Manual for TurtleBot3](http://turtlebot3.robotis.com/)
