@@ -2,7 +2,12 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.2.3 (2202-05-26)
+2.3.0 (2025-02-19)
+------------------
+* Updated Patrol.action to Support Updated Patrol Execution
+* Contributors: Junyeong Jeong
+
+2.2.3 (2022-05-26)
 ------------------
 * ROS2 Humble Hawksbill supported
 
