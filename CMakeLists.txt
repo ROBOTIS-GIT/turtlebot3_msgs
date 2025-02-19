@@ -19,6 +19,7 @@ find_package(action_msgs REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 ################################################################################
 # Setup for python modules and scripts
@@ -46,7 +47,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${srv_files}
   ${action_files}
-  DEPENDENCIES action_msgs std_msgs
+  DEPENDENCIES action_msgs std_msgs geometry_msgs
   ADD_LINTER_TESTS
 )
 ament_export_dependencies(rosidl_default_runtime)
