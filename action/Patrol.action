@@ -1,8 +1,8 @@
-# Goal
-float32 radius
+# Define the goal
+geometry_msgs/Vector3 goal
 ---
-# Result
-bool success
+# Define the result
+string result
 ---
-# Feedback
-float32 left_time
+# Define a feedback message
+string state
