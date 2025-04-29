@@ -2,7 +2,7 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.3.1 (2025-04-28)
+2.4.0 (2025-04-28)
 ------------------
 * Updated Goal.srv for turtlebot3_machine_learning
 * Contributors: ChanHyeong Lee
