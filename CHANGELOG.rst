@@ -2,6 +2,11 @@
 Changelog for package turtlebot3_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.4.0 (2025-04-28)
+------------------
+* Updated Goal.srv for turtlebot3_machine_learning
+* Contributors: ChanHyeong Lee
+
 2.3.0 (2025-02-19)
 ------------------
 * Updated Patrol.action to support updated patrol example
